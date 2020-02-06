@@ -1,24 +1,508 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KXv-3w-qmw">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Get Start with HBO now-->
+        <scene sceneID="YRh-3j-rAT">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController title="Get Start with HBO now" id="oFI-N5-djD" customClass="ViewController" customModule="HBONOWapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AmD-jS-wqd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9AN-zm-gKG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HXQ-n7-MNi">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="69" translatesAutoresizingMaskIntoConstraints="NO" id="aVN-yd-Abb">
+                                                <rect key="frame" x="5" y="5" width="404" height="667.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1FZ-Gs-ZOn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="404" height="475.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBONOW_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="d0x-FQ-MR8">
+                                                                <rect key="frame" x="3" y="0.0" width="398" height="128"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="398" id="Qmc-v9-vXm"/>
+                                                                    <constraint firstAttribute="height" constant="128" id="V8c-JF-hVG"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBE-hT-ldK">
+                                                                <rect key="frame" x="14.5" y="148" width="375.5" height="50.5"/>
+                                                                <string key="text">With HBO NOW®, enjoy instant and unlimited access
+ to every episode of every season of the best
+ HBO shows, movies, comedy, sports, and documentaries.</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dhoooom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="euj-Mb-WGD">
+                                                                <rect key="frame" x="3" y="218.5" width="398" height="257"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="398" id="ZqP-U5-KUQ"/>
+                                                                    <constraint firstAttribute="height" constant="257" id="ftr-fB-vVP"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="bIP-NS-Ssp">
+                                                        <rect key="frame" x="0.0" y="544.5" width="404" height="123"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUF-G9-EK0">
+                                                                <rect key="frame" x="0.0" y="0.0" width="404" height="60"/>
+                                                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="t0k-Xg-CuI"/>
+                                                                </constraints>
+                                                                <state key="normal" title="SIGN IN For HBO Now "/>
+                                                                <connections>
+                                                                    <segue destination="ynS-k7-eo1" kind="show" id="LaV-nx-JJx"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKp-4w-wtB">
+                                                                <rect key="frame" x="0.0" y="63" width="404" height="60"/>
+                                                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <state key="normal" title="Register For HBO Now "/>
+                                                                <connections>
+                                                                    <segue destination="zdc-ch-LPn" kind="show" id="FSL-57-sXN"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="aVN-yd-Abb" secondAttribute="trailing" constant="5" id="ZjN-uv-ZtV"/>
+                                            <constraint firstItem="aVN-yd-Abb" firstAttribute="leading" secondItem="HXQ-n7-MNi" secondAttribute="leading" constant="5" id="bOb-LC-bFN"/>
+                                            <constraint firstAttribute="height" constant="800" id="gAh-oS-yk9"/>
+                                            <constraint firstItem="aVN-yd-Abb" firstAttribute="top" secondItem="HXQ-n7-MNi" secondAttribute="top" constant="5" id="jJB-mS-Ski"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="HXQ-n7-MNi" secondAttribute="bottom" id="2kK-nJ-XJ4"/>
+                                    <constraint firstItem="HXQ-n7-MNi" firstAttribute="width" secondItem="9AN-zm-gKG" secondAttribute="width" id="6Y7-ku-wgc"/>
+                                    <constraint firstItem="HXQ-n7-MNi" firstAttribute="top" secondItem="9AN-zm-gKG" secondAttribute="top" id="6yD-lJ-G5L"/>
+                                    <constraint firstAttribute="trailing" secondItem="HXQ-n7-MNi" secondAttribute="trailing" id="8hG-75-RKF"/>
+                                    <constraint firstItem="HXQ-n7-MNi" firstAttribute="leading" secondItem="9AN-zm-gKG" secondAttribute="leading" id="jos-dn-4dj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9AN-zm-gKG" firstAttribute="top" secondItem="dSs-K5-WkT" secondAttribute="top" id="846-hF-Yfi"/>
+                            <constraint firstItem="9AN-zm-gKG" firstAttribute="bottom" secondItem="dSs-K5-WkT" secondAttribute="bottom" id="OnQ-d8-C1R"/>
+                            <constraint firstItem="9AN-zm-gKG" firstAttribute="trailing" secondItem="dSs-K5-WkT" secondAttribute="trailing" id="U8O-Ya-nbo"/>
+                            <constraint firstItem="9AN-zm-gKG" firstAttribute="leading" secondItem="dSs-K5-WkT" secondAttribute="leading" id="v5d-e0-jma"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dSs-K5-WkT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Get Started HBO NOW" id="PCA-MF-n56"/>
+                    <connections>
+                        <segue destination="iVh-Lc-XLR" kind="show" id="Fla-9Y-sry"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CvT-hd-D3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.34782608695653" y="386.38392857142856"/>
+        </scene>
+        <!--Dashboard View Controller-->
+        <scene sceneID="QLC-P5-8G9">
+            <objects>
+                <viewController id="iVh-Lc-XLR" customClass="DashboardViewController" customModule="HBONOWapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3VF-mo-R4N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dashboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlZ-dS-1MI">
+                                <rect key="frame" x="148" y="351" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.38203544550000001" green="0.59142871370000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="heS-Or-GAB"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T4T-cd-4YY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1346" y="386"/>
+        </scene>
+        <!--REGISTER FOR NOW HBO NOW-->
+        <scene sceneID="dVw-Sp-rla">
+            <objects>
+                <viewController title="REGISTER FOR NOW HBO NOW" id="zdc-ch-LPn" customClass="RegisterViewController" customModule="HBONOWapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mbg-Le-5qx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xri-vP-yBw">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JfF-c1-Z8M">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="850"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="WQq-zo-LpO">
+                                                <rect key="frame" x="5" y="5" width="404" height="767.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="qlY-68-gaG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="404" height="179.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBONOW_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Fs-7b-5JG">
+                                                                <rect key="frame" x="3" y="0.0" width="398" height="128"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="398" id="sYp-IC-GUc"/>
+                                                                    <constraint firstAttribute="height" constant="128" id="tc1-Th-edq"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20p-oS-1Po">
+                                                                <rect key="frame" x="14.5" y="129" width="375.5" height="50.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                <string key="text">With HBO NOW®, enjoy instant and unlimited access
+ to every episode of every season of the best
+ HBO shows, movies, comedy, sports, and documentaries.</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" red="0.99529299910000002" green="0.93177900820000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-vx-q9d">
+                                                        <rect key="frame" x="0.0" y="223.5" width="404" height="35"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9zF-aZ-a5I">
+                                                                <rect key="frame" x="0.0" y="0.0" width="199.5" height="35"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="kOn-3O-dKN"/>
+                                                                </constraints>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rK0-kz-Tuv">
+                                                                <rect key="frame" x="204.5" y="0.0" width="199.5" height="35"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="55L-Ek-98A"/>
+                                                                </constraints>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="CO5-bE-rL1">
+                                                        <rect key="frame" x="0.0" y="302.5" width="404" height="222"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="E-mail Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-Yt-4ro">
+                                                                <rect key="frame" x="0.0" y="0.0" width="404" height="35"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="Gat-vD-KGe"/>
+                                                                </constraints>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cS4-HT-Mzr">
+                                                                <rect key="frame" x="0.0" y="38" width="404" height="33.5"/>
+                                                                <string key="text">Your password must be at least 8 Charaters longs
+and should contain special characters and numbers</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XcW-HX-YYA">
+                                                                <rect key="frame" x="0.0" y="74.5" width="404" height="35"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="0mh-xF-BII"/>
+                                                                </constraints>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3aN-1h-KU4">
+                                                                <rect key="frame" x="0.0" y="112.5" width="404" height="35"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="Oa6-RD-As1"/>
+                                                                </constraints>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="ZIP Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jeg-Vp-pMz">
+                                                                <rect key="frame" x="0.0" y="150.5" width="404" height="35"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="w58-8J-0Cx"/>
+                                                                </constraints>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpZ-Lb-XtO">
+                                                                <rect key="frame" x="0.0" y="188.5" width="404" height="33.5"/>
+                                                                <string key="text">Your password must be at least 8 Charaters longs
+and should contain special characters and numbers</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="XB2-g1-P4V">
+                                                        <rect key="frame" x="0.0" y="568.5" width="404" height="36"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeI-cq-7VV">
+                                                                <rect key="frame" x="0.0" y="0.0" width="200.5" height="36"/>
+                                                                <string key="text">By checking this box.You agree to all terms 
+and conditions of HBO.</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1d-is-A9z">
+                                                                <rect key="frame" x="374" y="0.0" width="30" height="33"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <state key="normal" title="...">
+                                                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="R9h-Mx-JDz">
+                                                        <rect key="frame" x="0.0" y="648.5" width="404" height="40"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaE-pn-KHA">
+                                                                <rect key="frame" x="0.0" y="0.0" width="404" height="40"/>
+                                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="40" id="kmQ-wc-Bi8"/>
+                                                                </constraints>
+                                                                <state key="normal" title="Register For HBO Now"/>
+                                                                <connections>
+                                                                    <action selector="btn_Register:" destination="zdc-ch-LPn" eventType="touchUpInside" id="1SB-bA-HiO"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yeR-eO-1r4">
+                                                        <rect key="frame" x="0.0" y="732.5" width="404" height="35"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an HBO account ? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMh-QP-VZ4">
+                                                                <rect key="frame" x="0.0" y="7.5" width="245" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMg-sy-jAQ">
+                                                                <rect key="frame" x="250" y="0.0" width="154" height="35"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="d7k-8I-DMX"/>
+                                                                </constraints>
+                                                                <state key="normal" title="SIGN IN"/>
+                                                                <connections>
+                                                                    <segue destination="ynS-k7-eo1" kind="show" id="PdA-kN-QdO"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstItem="WQq-zo-LpO" firstAttribute="leading" secondItem="JfF-c1-Z8M" secondAttribute="leading" constant="5" id="0Rk-cn-PkK"/>
+                                            <constraint firstAttribute="trailing" secondItem="WQq-zo-LpO" secondAttribute="trailing" constant="5" id="1Xf-nP-RU9"/>
+                                            <constraint firstAttribute="height" constant="850" id="5Zi-cX-6ti"/>
+                                            <constraint firstItem="WQq-zo-LpO" firstAttribute="top" secondItem="JfF-c1-Z8M" secondAttribute="top" constant="5" id="HlT-xf-nny"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="JfF-c1-Z8M" firstAttribute="top" secondItem="Xri-vP-yBw" secondAttribute="top" id="3BF-ZR-gt2"/>
+                                    <constraint firstItem="JfF-c1-Z8M" firstAttribute="leading" secondItem="Xri-vP-yBw" secondAttribute="leading" id="8O2-zo-jfB"/>
+                                    <constraint firstAttribute="trailing" secondItem="JfF-c1-Z8M" secondAttribute="trailing" id="BrO-LM-bKW"/>
+                                    <constraint firstAttribute="bottom" secondItem="JfF-c1-Z8M" secondAttribute="bottom" id="oAN-MM-4n8"/>
+                                    <constraint firstItem="JfF-c1-Z8M" firstAttribute="width" secondItem="Xri-vP-yBw" secondAttribute="width" id="pr6-IG-wzI"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xri-vP-yBw" firstAttribute="bottom" secondItem="sso-jr-5L3" secondAttribute="bottom" id="Ar1-Rk-sjl"/>
+                            <constraint firstItem="Xri-vP-yBw" firstAttribute="trailing" secondItem="sso-jr-5L3" secondAttribute="trailing" id="BGW-wK-X0j"/>
+                            <constraint firstItem="Xri-vP-yBw" firstAttribute="leading" secondItem="sso-jr-5L3" secondAttribute="leading" id="I94-X0-VVm"/>
+                            <constraint firstItem="Xri-vP-yBw" firstAttribute="top" secondItem="sso-jr-5L3" secondAttribute="top" id="zhe-Tx-jIj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sso-jr-5L3"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtCPass" destination="3aN-1h-KU4" id="MrZ-eA-knX"/>
+                        <outlet property="txtEmail" destination="nBe-Yt-4ro" id="1P9-xv-TI1"/>
+                        <outlet property="txtFName" destination="9zF-aZ-a5I" id="kCG-2f-Srk"/>
+                        <outlet property="txtLName" destination="rK0-kz-Tuv" id="RdF-2m-tfK"/>
+                        <outlet property="txtPassword" destination="XcW-HX-YYA" id="3UB-y2-FQL"/>
+                        <outlet property="txtZip" destination="jeg-Vp-pMz" id="xW6-xk-5NG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JWo-7C-8d7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-308.69565217391306" y="1109.5982142857142"/>
+        </scene>
+        <!--SIGN IN-->
+        <scene sceneID="6U7-Oq-MCg">
+            <objects>
+                <viewController title="SIGN IN" id="ynS-k7-eo1" customClass="SignINViewController" customModule="HBONOWapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TWm-x6-dXJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ky-vQ-RBk">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ozL-FI-8zN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="190" translatesAutoresizingMaskIntoConstraints="NO" id="Eby-HN-maJ">
+                                                <rect key="frame" x="5" y="5" width="404" height="758"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2HN-AS-aT6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="404" height="128"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBONOW_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cr3-dJ-rPC">
+                                                                <rect key="frame" x="3" y="0.0" width="398" height="128"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="128" id="SYR-1k-gKd"/>
+                                                                    <constraint firstAttribute="width" constant="398" id="rz3-xP-jf7"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NLc-Iv-d1a">
+                                                        <rect key="frame" x="0.0" y="318" width="404" height="190"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mGU-5Y-Hmp">
+                                                                <rect key="frame" x="0.0" y="0.0" width="404" height="60"/>
+                                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="JSM-mn-ABW"/>
+                                                                </constraints>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5wM-DB-IA3">
+                                                                <rect key="frame" x="0.0" y="65" width="404" height="60"/>
+                                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljw-rN-NTY">
+                                                                <rect key="frame" x="0.0" y="130" width="404" height="60"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                                <state key="normal" title="SIGN IN HBO now"/>
+                                                                <connections>
+                                                                    <action selector="btnLogin:" destination="ynS-k7-eo1" eventType="touchUpInside" id="nNy-JM-dxd"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JaX-Df-6BG">
+                                                        <rect key="frame" x="0.0" y="698" width="404" height="60"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNB-bd-N3u">
+                                                                <rect key="frame" x="0.0" y="0.0" width="404" height="60"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="r2C-Bu-zQ2"/>
+                                                                </constraints>
+                                                                <state key="normal" title="Other Provider"/>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Eby-HN-maJ" firstAttribute="leading" secondItem="ozL-FI-8zN" secondAttribute="leading" constant="5" id="8Oo-x5-ycj"/>
+                                            <constraint firstItem="Eby-HN-maJ" firstAttribute="top" secondItem="ozL-FI-8zN" secondAttribute="top" constant="5" id="ooV-FZ-weg"/>
+                                            <constraint firstAttribute="trailing" secondItem="Eby-HN-maJ" secondAttribute="trailing" constant="5" id="vNm-5v-2AX"/>
+                                            <constraint firstAttribute="height" constant="800" id="zyt-ig-zMx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ozL-FI-8zN" secondAttribute="trailing" id="Brs-cH-opZ"/>
+                                    <constraint firstItem="ozL-FI-8zN" firstAttribute="width" secondItem="0ky-vQ-RBk" secondAttribute="width" id="Kpv-v3-a1p"/>
+                                    <constraint firstAttribute="bottom" secondItem="ozL-FI-8zN" secondAttribute="bottom" id="b0g-7M-dch"/>
+                                    <constraint firstItem="ozL-FI-8zN" firstAttribute="top" secondItem="0ky-vQ-RBk" secondAttribute="top" id="dwn-YF-Pig"/>
+                                    <constraint firstItem="ozL-FI-8zN" firstAttribute="leading" secondItem="0ky-vQ-RBk" secondAttribute="leading" id="m46-pn-5wI"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0ky-vQ-RBk" firstAttribute="trailing" secondItem="uSk-7O-aKW" secondAttribute="trailing" id="5Ax-FI-G41"/>
+                            <constraint firstItem="0ky-vQ-RBk" firstAttribute="leading" secondItem="uSk-7O-aKW" secondAttribute="leading" id="Mrh-LB-ezt"/>
+                            <constraint firstItem="0ky-vQ-RBk" firstAttribute="top" secondItem="uSk-7O-aKW" secondAttribute="top" id="SGb-FP-UhR"/>
+                            <constraint firstItem="0ky-vQ-RBk" firstAttribute="bottom" secondItem="uSk-7O-aKW" secondAttribute="bottom" id="eqW-fe-cUa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uSk-7O-aKW"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtEmail" destination="mGU-5Y-Hmp" id="aJw-6w-wTs"/>
+                        <outlet property="txtPass" destination="5wM-DB-IA3" id="X3t-OH-iKm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BVF-SB-agJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1191.304347826087" y="1111.6071428571429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7lZ-ow-SmE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KXv-3w-qmw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zcq-td-DjW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oFI-N5-djD" kind="relationship" relationship="rootViewController" id="Tz4-fy-4uU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZO1-NV-tiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-805.79710144927537" y="386.38392857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="HBONOW_img.png" width="512" height="250"/>
+        <image name="dhoooom.jpg" width="1500" height="1055"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="PdA-kN-QdO"/>
+    </inferredMetricsTieBreakers>
 </document>

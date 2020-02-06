@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FCE743FA3F574FBAFDECC1B /* Pods_HBONOWapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA26247A234B6775D273459 /* Pods_HBONOWapp.framework */; };
+		3913B4C323E31C4800286A9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3913B4C223E31C4800286A9D /* GoogleService-Info.plist */; };
+		3913B4C523E3210700286A9D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913B4C423E3210700286A9D /* RegisterViewController.swift */; };
+		3913B4C823E32AE000286A9D /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913B4C723E32AE000286A9D /* Validator.swift */; };
+		3913B4CA23E32B3B00286A9D /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913B4C923E32B3B00286A9D /* AlertDialog.swift */; };
+		3913B4CC23E33A9000286A9D /* SignINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913B4CB23E33A9000286A9D /* SignINViewController.swift */; };
+		3913B4CE23E33C0100286A9D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913B4CD23E33C0100286A9D /* DashboardViewController.swift */; };
 		39E3A14C23E0918900C588F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3A14B23E0918900C588F0 /* AppDelegate.swift */; };
 		39E3A14E23E0918900C588F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3A14D23E0918900C588F0 /* ViewController.swift */; };
 		39E3A15123E0918900C588F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E3A14F23E0918900C588F0 /* Main.storyboard */; };
 		39E3A15423E0918900C588F0 /* HBONOWapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39E3A15223E0918900C588F0 /* HBONOWapp.xcdatamodeld */; };
 		39E3A15623E0918B00C588F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E3A15523E0918B00C588F0 /* Assets.xcassets */; };
 		39E3A15923E0918B00C588F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E3A15723E0918B00C588F0 /* LaunchScreen.storyboard */; };
+		39E3A16723E09CEA00C588F0 /* HBONOW_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E3A16623E09CEA00C588F0 /* HBONOW_img.png */; };
+		39E3A16B23E09F1B00C588F0 /* dhoooom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39E3A16A23E09F1B00C588F0 /* dhoooom.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3913B4C223E31C4800286A9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3913B4C423E3210700286A9D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3913B4C723E32AE000286A9D /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		3913B4C923E32B3B00286A9D /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
+		3913B4CB23E33A9000286A9D /* SignINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignINViewController.swift; sourceTree = "<group>"; };
+		3913B4CD23E33C0100286A9D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		39E3A14823E0918900C588F0 /* HBONOWapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBONOWapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E3A14B23E0918900C588F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39E3A14D23E0918900C588F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,11 @@
 		39E3A15523E0918B00C588F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39E3A15823E0918B00C588F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39E3A15A23E0918B00C588F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E3A16623E09CEA00C588F0 /* HBONOW_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HBONOW_img.png; sourceTree = "<group>"; };
+		39E3A16A23E09F1B00C588F0 /* dhoooom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dhoooom.jpg; sourceTree = "<group>"; };
+		5AA26247A234B6775D273459 /* Pods_HBONOWapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBONOWapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03FAF9B5767FE76A11AA84C /* Pods-HBONOWapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBONOWapp.debug.xcconfig"; path = "Target Support Files/Pods-HBONOWapp/Pods-HBONOWapp.debug.xcconfig"; sourceTree = "<group>"; };
+		A8114924B837AEF5F52C113E /* Pods-HBONOWapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBONOWapp.release.xcconfig"; path = "Target Support Files/Pods-HBONOWapp/Pods-HBONOWapp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCE743FA3F574FBAFDECC1B /* Pods_HBONOWapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36FE756DD8C4481284F1DB09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA26247A234B6775D273459 /* Pods_HBONOWapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3913B4C623E32AB200286A9D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3913B4C723E32AE000286A9D /* Validator.swift */,
+				3913B4C923E32B3B00286A9D /* AlertDialog.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		39E3A13F23E0918900C588F0 = {
 			isa = PBXGroup;
 			children = (
 				39E3A14A23E0918900C588F0 /* HBONOWapp */,
 				39E3A14923E0918900C588F0 /* Products */,
+				809AC5592B7EC9DC2581D98C /* Pods */,
+				36FE756DD8C4481284F1DB09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +96,11 @@
 		39E3A14A23E0918900C588F0 /* HBONOWapp */ = {
 			isa = PBXGroup;
 			children = (
+				3913B4C623E32AB200286A9D /* Helper */,
+				39E3A16523E09CD400C588F0 /* Images */,
+				39E3A16223E0941C00C588F0 /* UIControllers */,
 				39E3A14B23E0918900C588F0 /* AppDelegate.swift */,
+				3913B4C223E31C4800286A9D /* GoogleService-Info.plist */,
 				39E3A14D23E0918900C588F0 /* ViewController.swift */,
 				39E3A14F23E0918900C588F0 /* Main.storyboard */,
 				39E3A15523E0918B00C588F0 /* Assets.xcassets */,
@@ -67,6 +111,34 @@
 			path = HBONOWapp;
 			sourceTree = "<group>";
 		};
+		39E3A16223E0941C00C588F0 /* UIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3913B4C423E3210700286A9D /* RegisterViewController.swift */,
+				3913B4CB23E33A9000286A9D /* SignINViewController.swift */,
+				3913B4CD23E33C0100286A9D /* DashboardViewController.swift */,
+			);
+			path = UIControllers;
+			sourceTree = "<group>";
+		};
+		39E3A16523E09CD400C588F0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				39E3A16A23E09F1B00C588F0 /* dhoooom.jpg */,
+				39E3A16623E09CEA00C588F0 /* HBONOW_img.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		809AC5592B7EC9DC2581D98C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A03FAF9B5767FE76A11AA84C /* Pods-HBONOWapp.debug.xcconfig */,
+				A8114924B837AEF5F52C113E /* Pods-HBONOWapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39E3A15D23E0918B00C588F0 /* Build configuration list for PBXNativeTarget "HBONOWapp" */;
 			buildPhases = (
+				FD42F8DB11F254DB15D5EC97 /* [CP] Check Pods Manifest.lock */,
 				39E3A14423E0918900C588F0 /* Sources */,
 				39E3A14523E0918900C588F0 /* Frameworks */,
 				39E3A14623E0918900C588F0 /* Resources */,
+				48E8D307DD53577424A9291E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +199,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E3A16B23E09F1B00C588F0 /* dhoooom.jpg in Resources */,
 				39E3A15923E0918B00C588F0 /* LaunchScreen.storyboard in Resources */,
 				39E3A15623E0918B00C588F0 /* Assets.xcassets in Resources */,
+				39E3A16723E09CEA00C588F0 /* HBONOW_img.png in Resources */,
 				39E3A15123E0918900C588F0 /* Main.storyboard in Resources */,
+				3913B4C323E31C4800286A9D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E8D307DD53577424A9291E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBONOWapp/Pods-HBONOWapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBONOWapp/Pods-HBONOWapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBONOWapp/Pods-HBONOWapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD42F8DB11F254DB15D5EC97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBONOWapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39E3A14423E0918900C588F0 /* Sources */ = {
@@ -139,8 +258,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				39E3A15423E0918900C588F0 /* HBONOWapp.xcdatamodeld in Sources */,
+				3913B4C523E3210700286A9D /* RegisterViewController.swift in Sources */,
 				39E3A14E23E0918900C588F0 /* ViewController.swift in Sources */,
+				3913B4CC23E33A9000286A9D /* SignINViewController.swift in Sources */,
+				3913B4CA23E32B3B00286A9D /* AlertDialog.swift in Sources */,
+				3913B4C823E32AE000286A9D /* Validator.swift in Sources */,
 				39E3A14C23E0918900C588F0 /* AppDelegate.swift in Sources */,
+				3913B4CE23E33C0100286A9D /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +408,9 @@
 		};
 		39E3A15E23E0918B00C588F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03FAF9B5767FE76A11AA84C /* Pods-HBONOWapp.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59397P39PU;
 				INFOPLIST_FILE = HBONOWapp/Info.plist;
@@ -302,8 +427,9 @@
 		};
 		39E3A15F23E0918B00C588F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8114924B837AEF5F52C113E /* Pods-HBONOWapp.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59397P39PU;
 				INFOPLIST_FILE = HBONOWapp/Info.plist;

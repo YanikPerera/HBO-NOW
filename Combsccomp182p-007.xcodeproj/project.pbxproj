@@ -31,7 +31,7 @@
 		3913B4C923E32B3B00286A9D /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
 		3913B4CB23E33A9000286A9D /* SignINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignINViewController.swift; sourceTree = "<group>"; };
 		3913B4CD23E33C0100286A9D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		39E3A14823E0918900C588F0 /* HBONOWapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBONOWapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E3A14823E0918900C588F0 /* HBO NOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HBO NOW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E3A14B23E0918900C588F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39E3A14D23E0918900C588F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39E3A15023E0918900C588F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		39E3A14923E0918900C588F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39E3A14823E0918900C588F0 /* HBONOWapp.app */,
+				39E3A14823E0918900C588F0 /* HBO NOW.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		39E3A14723E0918900C588F0 /* HBONOWapp */ = {
+		39E3A14723E0918900C588F0 /* HBO NOW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39E3A15D23E0918B00C588F0 /* Build configuration list for PBXNativeTarget "HBONOWapp" */;
+			buildConfigurationList = 39E3A15D23E0918B00C588F0 /* Build configuration list for PBXNativeTarget "HBO NOW" */;
 			buildPhases = (
 				FD42F8DB11F254DB15D5EC97 /* [CP] Check Pods Manifest.lock */,
 				39E3A14423E0918900C588F0 /* Sources */,
@@ -156,9 +156,9 @@
 			);
 			dependencies = (
 			);
-			name = HBONOWapp;
+			name = "HBO NOW";
 			productName = HBONOWapp;
-			productReference = 39E3A14823E0918900C588F0 /* HBONOWapp.app */;
+			productReference = 39E3A14823E0918900C588F0 /* HBO NOW.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 39E3A14323E0918900C588F0 /* Build configuration list for PBXProject "HBONOWapp" */;
+			buildConfigurationList = 39E3A14323E0918900C588F0 /* Build configuration list for PBXProject "Combsccomp182p-007" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39E3A14723E0918900C588F0 /* HBONOWapp */,
+				39E3A14723E0918900C588F0 /* HBO NOW */,
 			);
 		};
 /* End PBXProject section */
@@ -447,7 +447,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39E3A14323E0918900C588F0 /* Build configuration list for PBXProject "HBONOWapp" */ = {
+		39E3A14323E0918900C588F0 /* Build configuration list for PBXProject "Combsccomp182p-007" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39E3A15B23E0918B00C588F0 /* Debug */,
@@ -456,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39E3A15D23E0918B00C588F0 /* Build configuration list for PBXNativeTarget "HBONOWapp" */ = {
+		39E3A15D23E0918B00C588F0 /* Build configuration list for PBXNativeTarget "HBO NOW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39E3A15E23E0918B00C588F0 /* Debug */,
